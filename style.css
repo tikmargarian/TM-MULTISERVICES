@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
-    scrollbar-color: #888 #f1f1f1;
+    scrollbar-color: #1e3050 #f1f1f1;
 }
 
 body {
@@ -13,7 +13,6 @@ body {
 
 /* header style start */
 header {
-    /* background: #0056b3; */
     background-image: url("./images/bricolage.webp");
     color: white;
     text-align: center;
@@ -59,10 +58,13 @@ header {
 }
 
 .service {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;
-    background: #0056b3;
+    background: #1e3050;
     color: white;
     padding: 15px;
     border-radius: 5px;
@@ -71,6 +73,10 @@ header {
 .service.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.service i {
+    font-size: 18px;
 }
 
 .service:hover {
@@ -244,7 +250,7 @@ header {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #254bdd;
+    background: #1e3050;
     color: white;
     border: none;
     cursor: pointer;
@@ -278,3 +284,28 @@ footer {
     text-align: center;
 }
 /* footer style end */
+
+@media only screen and (max-width: 780px) {
+    header {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    
+    .header-background {
+        padding: 40px;
+    }
+
+    .header-background h2 {
+        font-size: 18px;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .reviews {
+        margin: 0;
+    }
+  }
