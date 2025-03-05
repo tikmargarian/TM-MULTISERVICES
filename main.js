@@ -27,6 +27,24 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.getElementById("showMoreBtn").addEventListener("click", function() {
+    const hiddenImages = document.querySelectorAll(".gallery-img.hidden");
+
+    // Показываем максимум 4 фото за нажатие
+    let count = 0;
+    hiddenImages.forEach(img => {
+        if (count < 4) { 
+            img.classList.remove("hidden");
+            count++;
+        }
+    });
+
+    // Если больше нет скрытых фото — скрываем кнопку
+    if (document.querySelectorAll(".gallery-img.hidden").length === 0) {
+        this.style.display = "none";
+    }
+});
+
 const avatars = document.querySelectorAll(".avatar");
 avatars[0].style.backgroundColor = "#d62f2f";
 avatars[1].style.backgroundColor = "#8dc63f";

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
-    scrollbar-color: #1e3050 #f1f1f1;
+    scrollbar-color: #888 #f1f1f1;
 }
 
 body {
@@ -23,6 +23,14 @@ header {
     height: 100%;
     padding: 60px;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-background h2 {
+    font-size: 28px;
+}
+
+.header-background p {
+    font-weight: 500;
 }
 
 .call-button {
@@ -111,6 +119,27 @@ header {
 .gallery img:hover {
     transform: scale(1.1);
 }
+
+.hidden {
+    display: none;
+}
+
+.show-more-btn {
+    background-color: #1e3050;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.show-more-btn:hover {
+    background-color: #0056b3;
+}
 /* gallery style end */
 
 /* img ligthbox style start */
@@ -137,10 +166,8 @@ header {
 
 .reviews-container {
     width: 100%;
-    background: white;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f9f9f9;
 }
 
 .reviews-container h2 {
@@ -298,7 +325,7 @@ footer {
     }
 
     .header-background h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .prev, .next {
