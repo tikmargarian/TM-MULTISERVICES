@@ -44,6 +44,31 @@ header {
     margin-top: 10px;
     font-weight: 500;
 }
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.social-media-icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-media-icons i {
+    font-size: 24px;
+}
 /* header style end */
 
 /* services style strat */
@@ -329,7 +354,7 @@ header {
 
 /* footer style start */
 footer {
-    background: #1e3050;
+    background: #252525;
     color: white;
     padding: 10px;
     position: relative;
@@ -337,6 +362,7 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+    padding: 15px;
 }
 
 footer p {
@@ -350,7 +376,6 @@ footer p {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-
     }
     
     .header-background {
@@ -358,7 +383,9 @@ footer p {
     }
 
     .header-background h2 {
+        padding: 0;
         font-size: 25px;
+        line-height: 30px;
     }
 
     .prev, .next {
