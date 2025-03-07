@@ -41,6 +41,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
+    font-weight: 500;
 }
 /* header style end */
 
@@ -49,12 +50,21 @@ header {
     padding: 20px;
     margin-top: 20px;
     text-align: center;
+    background: #f8f9fa;
 }
 
 .services h2 {
     font-size: 28px;
     text-transform: uppercase;
-    color: #252525;
+    color: #121618;
+}
+
+.underline {
+    width: 20%;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #000000;
 }
 
 .service-list {
@@ -68,6 +78,7 @@ header {
 .service {
     display: flex;
     align-items: center;
+    width: 350px;
     gap: 10px;
     opacity: 0;
     transform: translateY(20px);
@@ -76,7 +87,6 @@ header {
     color: white;
     padding: 15px;
     border-radius: 5px;
-    min-width: 200px;
 }
 .service.visible {
     opacity: 1;
@@ -97,13 +107,18 @@ header {
 .gallery {
     padding: 20px;
     text-align: center;
+    background: #f8f9fa;
 }
 
 .gallery h2 {
     font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    color: #252525;
+    color: #121618;
+}
+
+.gallery-container {
+    margin-top: 30px;
 }
 
 .gallery img {
@@ -132,7 +147,7 @@ header {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -168,6 +183,7 @@ header {
     width: 100%;
     padding: 20px;
     border-radius: 10px;
+    background: #f8f9fa;
 }
 
 .reviews-container h2 {
@@ -176,7 +192,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    color: #252525;
+    color: #121618;
 }
 
 .avis-start {
@@ -298,17 +314,33 @@ header {
     background: #f8f9fa;
     text-align: center;
 }
+
+.contact h2 {
+    font-size: 28px;
+    color: #121618;
+    text-transform: uppercase;
+}
+
+.contact {
+    font-weight: 500;
+}
 /* contact style end */
 
 /* footer style start */
 footer {
-    background: #343a40;
+    background: #1e3050;
     color: white;
     padding: 10px;
     position: relative;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 /* footer style end */
 
