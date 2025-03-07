@@ -26,11 +26,12 @@ header {
 }
 
 .header-background h2 {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .header-background p {
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .call-button {
@@ -357,7 +358,7 @@ footer p {
     }
 
     .header-background h2 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .prev, .next {
@@ -366,5 +367,9 @@ footer p {
 
     .reviews {
         margin: 0;
+    }
+
+    .underline {
+        width: 50%;
     }
   }
