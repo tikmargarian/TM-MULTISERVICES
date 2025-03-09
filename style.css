@@ -349,6 +349,56 @@ header {
     background: black;
 }
 
+/* About us style start */
+.about-us {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #121618;
+}
+
+.about-us-description {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.about-us h3 {
+    margin-top: 18px;
+}
+
+.about-us-why {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.about-us-why i {
+    font-size: 32px;
+    color: #1E3050;
+}
+
+.about-us-why p {
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.about-us-why strong {
+    color: #0056b3;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about-us-fin {
+    margin-top: 18px;
+    font-weight: 700;
+}
+
+/* About us style end */
+
 
 /* contact style start */
 .contact {
@@ -431,6 +481,22 @@ footer p {
 
     .review-h2-2 {
         font-size: 22px;
+    }
+
+    .about-us h2 {
+        font-size: 24px;
+    }
+
+    .about-us-description {
+        font-size: 14px;
+    }
+
+    .about-us-why p {
+        font-size: 14px;
+    }
+
+    .about-us-why strong {
+        font-size: 16px;
     }
 
     .contact h2 {
