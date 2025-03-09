@@ -81,6 +81,7 @@ header {
 
 .services h2 {
     font-size: 28px;
+    font-weight: 800;
     text-transform: uppercase;
     color: #121618;
 }
@@ -138,6 +139,8 @@ header {
 
 .gallery h2 {
     font-size: 28px;
+    line-height: 32px;
+    font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #121618;
@@ -214,6 +217,19 @@ header {
 
 .reviews-container h2 {
     font-size: 28px;
+    line-height: 32px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #121618;
+}
+
+.review-h2-2 {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 800;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -343,6 +359,7 @@ header {
 
 .contact h2 {
     font-size: 28px;
+    font-weight: 800;
     color: #121618;
     text-transform: uppercase;
 }
@@ -398,5 +415,25 @@ footer p {
 
     .underline {
         width: 50%;
+    }
+    
+    .services h2 {
+        font-size: 24px;
+    }
+
+    .gallery h2 {
+        font-size: 24px;
+    }
+
+    .reviews-container h2 {
+        font-size: 24px;
+    }
+
+    .review-h2-2 {
+        font-size: 22px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
     }
   }
