@@ -440,9 +440,9 @@ footer p {
 
 @media only screen and (max-width: 780px) {
     header {
+        background-image: url("./images/des-outils-de-bricolage-002.jpg");
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;
     }
     
     .header-background {
