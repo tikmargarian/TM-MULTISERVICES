@@ -10,21 +10,51 @@ document.addEventListener("DOMContentLoaded", function() {
     
     services.forEach(service => observer.observe(service));
 
-    // Galerie Lightbox
     const galleryImages = document.querySelectorAll(".gallery-img");
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const closeBtn = document.getElementById("close-btn");
+    let currentIndex = 0;
     
-    galleryImages.forEach(img => {
+    // Функция для обновления изображения в лайтбоксе
+    function updateLightbox(index) {
+        if (index >= 0 && index < galleryImages.length) {
+            lightboxImg.src = galleryImages[index].src;
+            currentIndex = index;
+        }
+    }
+    
+    // Открытие лайтбокса по клику на изображение
+    galleryImages.forEach((img, index) => {
         img.addEventListener("click", () => {
-            lightboxImg.src = img.src;
+            updateLightbox(index);
             lightbox.style.display = "flex";
         });
     });
     
-    lightbox.addEventListener("click", () => {
-        lightbox.style.display = "none";
+    // Обработчики кнопок "Предыдущий" и "Следующий"
+    prevBtn.addEventListener("click", (event) => {
+        event.stopPropagation(); // Чтобы не закрывался лайтбокс
+        updateLightbox(currentIndex - 1);
     });
+    
+    nextBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        updateLightbox(currentIndex + 1);
+    });
+    
+    // Закрытие лайтбокса по клику вне изображения
+    lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) {
+            lightbox.style.display = "none";
+        }
+    });
+
+    closeBtn.addEventListener("click", () => {
+        lightbox.style.display = "none";
+    })
 });
 
 document.getElementById("showMoreBtn").addEventListener("click", function() {
