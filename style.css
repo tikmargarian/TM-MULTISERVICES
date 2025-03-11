@@ -69,7 +69,7 @@ header {
 }
 
 .social-media-icons i {
-    font-size: 26px;
+    font-size: 28px;
 }
 /* header style end */
 
@@ -240,7 +240,7 @@ header {
     background: #f8f9fa;
 }
 
-.reviews-container h2 {
+.reviews-container-h2 {
     font-size: 28px;
     line-height: 32px;
     font-weight: 800;
@@ -252,7 +252,7 @@ header {
 }
 
 .review-h2-2 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 32px;
     font-weight: 800;
     font-style: normal;
@@ -403,7 +403,7 @@ header {
 
 .about-us-why i {
     font-size: 32px;
-    color: #1E3050;
+    color: #28a745;
 }
 
 .about-us-why p {
@@ -513,7 +513,7 @@ footer p {
         margin-top: 10px;
     }
 
-    .reviews-container h2 {
+    .reviews-container-h2 {
         font-size: 24px;
     }
 
