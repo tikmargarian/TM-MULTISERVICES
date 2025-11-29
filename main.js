@@ -63,7 +63,7 @@ document.getElementById("showMoreBtn").addEventListener("click", function() {
     // Показываем максимум 4 фото за нажатие
     let count = 0;
     hiddenImages.forEach(img => {
-        if (count < 30) { 
+        if (count < 5) { 
             img.classList.remove("hidden");
             count++;
         }

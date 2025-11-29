@@ -490,7 +490,7 @@ footer p {
 
 @media only screen and (max-width: 780px) {
     header {
-        background-image: url("./images/faire-du-bricolage-a-la-maison-720x480.jpg");
+        background-image: url("https://raw.githubusercontent.com/tikmargarian/TM-MULTISERVICES/refs/heads/master/images/des-outils-de-bricolage-002.jpg");
         background-position: center;
         background-size: cover;
     }
