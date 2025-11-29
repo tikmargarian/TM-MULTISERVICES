@@ -13,7 +13,7 @@ body {
 
 /* header style start */
 header {
-    background-image: url("./images/bricolage.webp");
+    background-image: url("https://raw.githubusercontent.com/tikmargarian/TM-MULTISERVICES/refs/heads/master/images/bricolage.webp");
     color: white;
     text-align: center;
     background-size: cover;
@@ -132,7 +132,7 @@ header {
 }
 /* services style end */
 
-/* Общий стиль для секции */
+/* Video Section style start */
 .tik-tok-videos {
   display: flex;
   flex-wrap: wrap;
@@ -154,6 +154,7 @@ header {
   height: auto;
   display: block;
 }
+/* Video Section style end */
 
 /* gallery style strat */
 .gallery {
@@ -488,7 +489,7 @@ footer p {
 
 @media only screen and (max-width: 780px) {
     header {
-        background-image: url("./images/des-outils-de-bricolage-002.jpg");
+        background-image: url("https://raw.githubusercontent.com/tikmargarian/TM-MULTISERVICES/refs/heads/master/images/des-outils-de-bricolage-002.jpg");
         background-position: center;
         background-size: cover;
     }
