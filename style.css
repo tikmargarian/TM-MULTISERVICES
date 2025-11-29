@@ -132,6 +132,29 @@ header {
 }
 /* services style end */
 
+/* Общий стиль для секции */
+.tik-tok-videos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 30px;
+}
+
+.video-box {
+  height: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-box video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* gallery style strat */
 .gallery {
     padding: 20px;
